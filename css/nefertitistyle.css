@@ -15,6 +15,10 @@ body{}
 	#icon-nav-li:hover{fill:#ffffff; cursor: pointer;}
 	#horizont-logo-nav{height: 40px; padding-top: 8px;}
 	#div-logo-nav{position: absolute; float: left; padding-top: 6px; padding-left: 16px;}
+	#btnpopup{width: 150px;height: 69px; position: fixed; bottom: 64px; z-index: 9; right: 16px;}
+	#btnpopup{background-image: url('../images/mini/btnpopup1.png'); background-size: 150px 69px}
+	#btnpopup:hover{background-image: url('../images/mini/btnpopuphover.png'); background-size: 150px 69px}
+	#btnpopup:active{background-image: url('../images/mini/btnpopupactive.png'); background-size: 150px 69px}
 
 @media(max-width:800px){
 .toggle{display:flex; align-items: center; text-align: right; justify-content: flex-end;}
@@ -53,6 +57,8 @@ body{}
 	#inputemail-footer:active{color:#ffffff;}
 	#inputtext-footer:active{color:#ffffff;}
 	#btn-footer{width:243px; height: 28px; font-size: 16px; margin-bottom: 8px; border: 3px solid #263238; box-sizing: border-box; border-radius: 10px; color: #263238;display: flex;align-items: center; justify-content: center;}
+	#divmailsent{width: 100%;  background: rgba(0, 0, 0, 0.6); color: #FCA311; text-align: center; font-size: 24px; font-weight: bold; font-family: Roboto, serif; position: fixed; bottom: 0px; display: none;}
+
 @media(max-width:800px){
 	.footer{width:100%; height:auto; padding-top: 16px; display: block; text-align: center; font-family: 'Roboto', serif;}
 	#footer-frame1{width:100%; height:auto; margin-bottom: 32px;}
@@ -67,16 +73,18 @@ body{}
 	#btnft{margin-bottom: 8px;}
 }
 
-.description{width: 100%;height: 90vh; position: relative; background-size: cover; background-position: right; background-position: bottom;}
-#p-cover01{position: absolute;width: 100%; height:8vh ;background: rgba(0, 0, 0, 0.8); bottom:0vh;}
-#paragraphindex{text-align: center; padding-bottom: 2vh; font-family: 'Aref Ruqaa', cursive; color: #F5B731; font-weight: bold; white-space: nowrap; font-size: 24px; overflow: hidden;}
+.description{width: 100%;height: 90vh; position: relative; background-size: cover;}
+#coverimgindex{background-position: right; background-position: bottom;}
+#coverimgsobre{background-position: center;}
+#p-cover01{position: absolute;width: 100%; height:8vh ;background: rgba(0, 0, 0, 0.8); bottom:0vh; display: flex; align-items: center; justify-content: center}
+#paragraphindex{text-align: center; font-family: 'Aref Ruqaa', cursive; color: #F5B731; font-weight: bold; white-space: nowrap; font-size: 24px; overflow: hidden;}
 .h1-primary{font-size: 32px; color: #FCA311; font-weight: bold;}
 #index-h1{margin-left:32px; margin-top: 40px; margin-bottom: 16px;}
 .logoindexdiv1{width:100%;border-radius: 0px 25px;}
 #logoindexdiv0{width:27%; position: relative; display: flex; justify-content: center; align-items: center;}
 #body-indexdiv1{width: 100%; display: flex;justify-content: space-between; padding-left: 32px; padding-right: 32px;}
 #textlogo{position: absolute; width: 100%; height: 100%; text-align: center; font-size: 24px; border-radius: 0px 25px; color: rgba(0, 0, 0, 0.0);}
-#textlogo:hover{background-color: rgba(0, 0, 0, 0.5); transition: 300ms;color: rgba(255, 255, 255, 1.0); }
+#textlogo:hover{background-color: rgba(0, 0, 0, 0.5); transition: 300ms;color: rgba(255, 255, 255, 1.0); text-decoration: none; }
 #textlogo1{margin-top: 50%; font-weight: bold; }
 #blog-indexdiv{background: #F5F5F5;display: flex;position: relative; margin-left: 32px; margin-right: 32px; margin-bottom: 56px; border-radius:8px;}
 #blog-indeximg{width: 50%; background-size: cover;background-position: center; margin: 16px;}
@@ -95,7 +103,7 @@ body{}
 	#body-indexdiv1{padding-left: 16px; padding-right: 16px;}
 	.h1-primary{font-size: 24px;}
 	#index-h1{margin-left:16px; margin-top: 32px; margin-bottom: 24px;}
-	#textlogo{position: absolute; width: 100%; height: 25%; text-align: center; font-size: 1.8vh; border-radius: 0px 0px 0px 25px; background-color: rgba(0, 0, 0, 0.5);color: rgba(255, 255, 255, 1.0);  bottom:0vh;}
+	#textlogotxt{position: absolute; width: 100%; height: 25%; text-align: center; font-size: 1.8vh; border-radius: 0px 0px 0px 25px; background-color: rgba(0, 0, 0, 0.5);color: rgba(255, 255, 255, 1.0);  bottom:0vh;}
 	#textlogo1{margin-top: 2% ; font-weight: bold; }
 	#blog-indexdiv{margin-left: 16px; margin-right: 16px; margin-bottom: 40px;}
 	#blog-indeximg{margin: 8px;}
