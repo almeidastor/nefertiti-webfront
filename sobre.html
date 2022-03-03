@@ -9,17 +9,19 @@
 	<meta name= "author" content="almeidastor">
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/nefertitistyle.css">
+	<script type="text/javascript" src="js/nefertitiscript.js"></script>
 
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:500,700&display=swap" rel="stylesheet"> 
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa:wght@700&display=swap" rel="stylesheet"> 
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link rel="icon" href="images/logo-variants/iconnavgray.png">
 </head>
 
 <body>
-	<section id="description"><div class="header">
-		<div id=div-logo-nav><img id=horizont-logo-nav src="images/logo-variants/Horizontlogo.png"></div>
-	<nav class="navtoggle">
+	<section class="description" id="coverimgsobre" style="background-image: url('images/covers/sobrecover.jpg');"><div class="header"><nav class="navtoggle">
+	<div id=div-logo-nav><img id=horizont-logo-nav src="images/logo-variants/Horizontlogo.png"></div>
 
 		<div class="toggle">
 
@@ -38,7 +40,7 @@
 
 			<ul class=ula name>
 				<li class=lia id="menu-nav-toggle"><a href="index.html">Início</a></li>
-				<li class=lia id="menu-nav-toggle"><a href="myportfolio.html">Loja</a></li>
+				<li class=lia id="menu-nav-toggle"><a href="loja/index.html">Loja</a></li>
 				<li class=lia id="menu-nav-toggle"><a href="sobre.html">A Clínica</a></li>
 				<li class=lia id="menu-nav-toggle"><a href="sobre.html">Blog</a></li>
 				<li class=lia id="menu-nav-toggle"><a href="sobre.html">Sobre nós</a></li>
@@ -55,20 +57,40 @@
 				$('.menu').click(function(){
 					$(".ula").toggleClass('active');
 				})
-			})</script></div></section>
-
-
-
-	<div>
-		<i class="bi bi-whatsapp whatsappicon"></i>
-
-		<span class="glyphicon glyphicon-shopping-cart"></span>
-		<i class="fa-thin fa-heart"></i>
-
-		<i class="fa fa-cloud"></i>
+			})</script></div>
+		</section>
+		
+	<div id=divmailsent> E-Mail Enviado </div>
+		
+	<h1 class="h1-primary" id="index-h1">Categorias</h1>
+	<div id="body-indexdiv1">
+		<div id="logoindexdiv0">
+		<img class="logoindexdiv1" src="images/mini/iniciocat01.jpg">
+		<div id="textlogo"><p id="textlogo1">A Clínica</p></div>
+		</div>
+		<div id="logoindexdiv0">
+		<img class="logoindexdiv1" src="images/mini/iniciocat02.jpg">
+		<div id="textlogo"><p id="textlogo1">A Loja</p></div>
+		</div>
+		<div id="logoindexdiv0">
+		<img class="logoindexdiv1" src="images/mini/iniciocat03.jpg">
+		<div id="textlogo"><p id="textlogo1">Sobre Nós</p></div>
+		</div>
 	</div>
-</div>
 
+	</div>
+	<h1 class="h1-primary" id="index-h1">Blog</h1>
+	<div id="blog-indexdiv">
+		<div id="blog-indeximg" style="background-image: url('images/blog/vitcmocinhovilao.jpg');"></div>
+		<div id="blog-indexdescription">
+		<div id="blog-indextitle">Vitamina C: Mocinho ou vilão?</div>
+		<div id="blog-indextext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus ipsum eu dolor efficitur tincidunt. Nam congue ultrices egestas. Sed vitae felis fringilla, consequat sapien quis, cursus nunc. Etiam facilisis dui elit, ut pulvinar enim malesuada nec.</div>
+		<div id="blog-indexhash">#skincare #rotina #dúvida</div>
+		<button id="blog-indexbtn">Ler Mais</button>
+		</div>
+	</div>
+
+		
 
 <footer> 
 	<div class="footer">
@@ -79,18 +101,18 @@
 	<div id=footer-frame2>
 		<nav class="navfooter">
 		<ul id="title-footer">
-
+		
 		<p>Fale conosco</p>
 		<div id="frame-form-footer">
 		<input type="email" id="inputemail-footer" placeholder="Digite seu email*">
-		<textarea id="inputtext-footer" cols="30" rows="5" placeholder="Escreva sua dúvida"></textarea>
-		<button id="btn-footer" type="button">Enviar</button>
+		<textarea id="inputtext-footer" cols="30" rows="5" placeholder="Escreva sua dúvida" ></textarea>
+		<button id="btn-footer" type="button" onclick="ocultarExibir()">Enviar</button>
 		</div>
-
 		</ul>
 		</nav>
 	</div>
-
+<script>
+</script>
 	<div id=footer-frame3>
 		<ul>
 		<p id="title-footer">Nossas Redes</p>
@@ -111,7 +133,6 @@
 
 		</p></ul>
 	</div>
-
 	</div>
 </footer>
 </body>
