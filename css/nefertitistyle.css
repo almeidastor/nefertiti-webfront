@@ -16,9 +16,10 @@ body{}
 	#horizont-logo-nav{height: 40px; padding-top: 8px;}
 	#div-logo-nav{position: absolute; float: left; padding-top: 6px; padding-left: 16px;}
 	#btnpopup{width: 150px;height: 69px; position: fixed; bottom: 64px; z-index: 9; right: 16px;}
-	#btnpopup{background-image: url('../images/mini/btnpopup1.png'); background-size: 150px 69px}
-	#btnpopup:hover{background-image: url('../images/mini/btnpopuphover.png'); background-size: 150px 69px}
-	#btnpopup:active{background-image: url('../images/mini/btnpopupactive.png'); background-size: 150px 69px}
+	#btnpopup{background-image: url('../images/mini/btnpopup0.png'); background-size: 150px 69px; }
+	#btnpopuptext{width: 100%;height: 69px; position: absolute;right: 0px; }
+	#btnpopuptext1{text-align: right;margin-right: 16px; margin-top: 6px; font-size: 13px; font-weight: bold;color: #ffffff;}
+	#btnpopuptext2{text-align: right;margin-right: 12px;margin-bottom: 6px; font-size: 11px; font-weight: bold;color: #5A1894;}
 
 @media(max-width:800px){
 .toggle{display:flex; align-items: center; text-align: right; justify-content: flex-end;}
@@ -86,13 +87,13 @@ body{}
 #textlogo{position: absolute; width: 100%; height: 100%; text-align: center; font-size: 24px; border-radius: 0px 25px; color: rgba(0, 0, 0, 0.0);}
 #textlogo:hover{background-color: rgba(0, 0, 0, 0.5); transition: 300ms;color: rgba(255, 255, 255, 1.0); text-decoration: none; }
 #textlogo1{margin-top: 50%; font-weight: bold; }
-#blog-indexdiv{background: #F5F5F5;display: flex;position: relative; margin-left: 32px; margin-right: 32px; margin-bottom: 56px; border-radius:8px;}
+#blog-indexdiv{height: 60vh;background: #F5F5F5;display: flex;position: relative; margin-left: 32px; margin-right: 32px; margin-bottom: 56px; border-radius:8px;}
 #blog-indeximg{width: 50%; background-size: cover;background-position: center; margin: 16px;}
-#blog-indexdescription{width: 50%; margin: 16px;}
+#blog-indexdescription{width: 50%; margin: 16px; background: red; display: block;}
 #blog-indextitle{font-size: 24px; font-weight: bold; color: #5A189A;}
 #blog-indextext{margin-top: 8px; font-size: 20px; color: #8B8A8A;}
 #blog-indexhash{margin-top: 16px; font-size: 16px; color: rgba(252, 163, 17, 0.7);}
-#blog-indexbtn{width: 20vh;margin-top: 24px; float: right; position: relative; font-size: 100%; padding: 8px; border-radius: 10px; border: 3px solid #FCA311; font-family: roboto; color: #FCA311; background-color: #ffffff;}
+#blog-indexbtn{width: 20vh; float: right;bottom: 0px; font-size: 100%; padding: 8px; border-radius: 10px; border: 3px solid #FCA311; font-family: roboto; color: #FCA311; background-color: #ffffff;}
 #blog-indexbtn:hover{font-weight: bold; border: 3px solid #FCA311;}
 #blog-indexbtn:active{font-weight: bold; border: 3px solid #d5d5d5;}
 
@@ -112,5 +113,16 @@ body{}
 	#blog-indextext{margin-top: 8px; font-size: 12px;}
 	#blog-indexhash{margin-top: 8px; font-size: 10px;}
 	#blog-indexbtn{width: 10vh;margin-top: 8px; float: right; position: relative; font-size: 100%; padding: 2px; font-weight: bold;}
+}
 
+#sobreanefertiti{width: 100%;padding-left: 32px;padding-right: 32px; margin-top: 32px; display: flex; justify-content:center; background-position: center;}
+#logosobrediv1{width: 30%; background-size: cover; background-position: center; border-radius: 0px 25px;} 
+#logosobredivtext{width: 55%; height: 50vh ; margin-left: 32px; background: #F5F5F5; display: flex ;justify-content: center; padding: 24px; overflow: auto;}
+#logosobredivtext1{font-size: 24px; font-family: Roboto, serif; color: #263238;}
+
+@media(max-width:800px){
+	#sobreanefertiti{width: 100%;padding-left: 16px;padding-right: 16px; margin-top: 16px}
+	#logosobredivtext{height: 25vh ;}
+	#logosobredivtext{margin-left: 16px; padding: 8px; border-radius: 25px;}
+	#logosobredivtext1{font-size: 12px;}
 }
