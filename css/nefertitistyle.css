@@ -88,8 +88,8 @@ body{}
 #textlogo:hover{background-color: rgba(0, 0, 0, 0.5); transition: 300ms;color: rgba(255, 255, 255, 1.0); text-decoration: none; }
 #textlogo1{margin-top: 50%; font-weight: bold; }
 #blog-indexdiv{background: #F5F5F5;display: flex;position: relative; margin-left: 32px; margin-right: 32px; margin-bottom: 56px; border-radius:8px;}
-#blog-indeximg{width: 50%; center; margin: 16px;}
-#blog-indexdescription{width: 50%; margin: 16px; background: red; display: block; position: relative;}
+#blog-indeximg{width: 50%; margin: 16px;}
+#blog-indexdescription{width: 50%; margin: 16px; display: block; position: relative;}
 #blog-indextitle{font-size: 32px; font-weight: bold; color: #5A189A;}
 #blog-indextext{margin-top: 8px; font-size: 24px; color: #8B8A8A;}
 #blog-indexhash{margin-top: 16px; font-size: 18px; color: rgba(252, 163, 17, 0.7);}
@@ -116,14 +116,14 @@ body{}
 	#blog-indexbtn{width: 10vh;margin-top: 8px; float: right; position: relative; font-size: 100%; padding: 2px; font-weight: bold;}
 }
 
-#sobreanefertiti{width: 100%;padding-left: 32px;padding-right: 32px; margin-top: 32px; display: flex; justify-content:center; background-position: center;}
-#logosobrediv1{width: 30%; background-size: cover; background-position: center; border-radius: 0px 25px;} 
-#logosobredivtext{width: 55%; height: 50vh ; margin-left: 32px; background: #F5F5F5; display: flex ;justify-content: center; padding: 24px; overflow: auto;}
-#logosobredivtext1{font-size: 24px; font-family: Roboto, serif; color: #263238;}
+#sobreanefertiti{width: 100%;background: blue;padding-left: 32px;padding-right: 32px; margin-top: 32px; display: flex; justify-content:center; background-position: center; position: relative;}
+#logosobrediv1{width: 30%;height: 0; padding-bottom: 30%; border-radius: 0px 25px; float: left; position: relative; background-size: contain;} 
+#logosobredivtext{width: 55% ; background: #F5F5F5; display: flex ;justify-content: center; padding: 20px; overflow:auto; align-items: center;}
+#logosobredivtext1{font-size: 20px; font-family: Roboto, serif; color: #263238;}
 
 @media(max-width:800px){
 	#sobreanefertiti{width: 100%;padding-left: 16px;padding-right: 16px; margin-top: 16px}
-	#logosobredivtext{height: 25vh ;}
+	#logosobredivtext{}
 	#logosobredivtext{margin-left: 16px; padding: 8px; border-radius: 25px;}
 	#logosobredivtext1{font-size: 12px;}
 }
