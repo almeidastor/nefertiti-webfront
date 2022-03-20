@@ -84,7 +84,7 @@ body{}
 .logoindexdiv1{width:100%;border-radius: 0px 25px;}
 #logoindexdiv0{width:27%; position: relative; display: flex; justify-content: center; align-items: center;}
 #body-indexdiv1{width: 100%; display: flex;justify-content: space-between; padding-left: 32px; padding-right: 32px;}
-#textlogo{position: absolute; width: 100%; height: 100%; text-align: center; font-size: 24px; border-radius: 0px 25px; color: rgba(0, 0, 0, 0.0);}
+#textlogo{position: absolute; width: 100%; height: 100%; text-align: center; font-size: 5vh; border-radius: 0px 25px; color: rgba(0, 0, 0, 0.0);}
 #textlogo:hover{background-color: rgba(0, 0, 0, 0.5); transition: 300ms;color: rgba(255, 255, 255, 1.0); text-decoration: none; }
 #textlogo1{margin-top: 50%; font-weight: bold; }
 #blog-indexdiv{background: #F5F5F5;display: flex;position: relative; margin-left: 32px; margin-right: 32px; margin-bottom: 56px; border-radius:8px;}
