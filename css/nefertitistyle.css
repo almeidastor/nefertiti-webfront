@@ -88,7 +88,7 @@ body{}
 #textlogo:hover{background-color: rgba(0, 0, 0, 0.5); transition: 300ms;color: rgba(255, 255, 255, 1.0); text-decoration: none; }
 #textlogo1{margin-top: 50%; font-weight: bold; }
 #blog-indexdiv{background: #F5F5F5;display: flex;position: relative; margin-left: 32px; margin-right: 32px; margin-bottom: 56px; border-radius:8px;}
-#blog-indeximg{width: 50%; margin: 16px;}
+#blog-indeximg{width: 50%; margin: 16px; background-size: cover; background-position: center;}
 #blog-indexdescription{width: 50%; margin: 16px; display: block; position: relative;}
 #blog-indextitle{font-size: 32px; font-weight: bold; color: #5A189A;}
 #blog-indextext{margin-top: 8px; font-size: 24px; color: #8B8A8A;}
