@@ -118,8 +118,8 @@ body{}
 
 #sobreanefertiti{width: 100%;background: blue;padding-left: 32px;padding-right: 32px; margin-top: 32px; display: flex; justify-content:center; background-position: center; position: relative;}
 #logosobrediv1{width: 30%;height: 0; padding-bottom: 30%; border-radius: 0px 25px; float: left; position: relative; background-size: contain;} 
-#logosobredivtext{width: 55% ; background: #F5F5F5; display: flex ;justify-content: center; padding: 20px; overflow:auto; align-items: center;}
-#logosobredivtext1{font-size: 20px; font-family: Roboto, serif; color: #263238;}
+#logosobredivtext{width: 55% ; background: #F5F5F5; display: flex ;justify-content: center; padding: 20px; overflow:auto; align-items: center; scroll-behavior: auto;}
+#logosobredivtext1{font-size: 24px; font-family: Roboto, serif; color: #263238;}
 
 @media(max-width:800px){
 	#sobreanefertiti{width: 100%;padding-left: 16px;padding-right: 16px; margin-top: 16px}
