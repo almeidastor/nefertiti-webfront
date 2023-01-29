@@ -1,4 +1,10 @@
-# nefertiti-webfront
+# Nefertiti-Webfront
+
+<p align="center">
+  <img src="https://img.shields.io/static/v1?label= &message=html5&color=red&style=flat&logo=appveyor&logo=html5"/>
+  <img src="https://img.shields.io/static/v1?label=language &message=Javascript&color=orange&style=flat&logo=appveyor&logo=javascript"/>
+  <img src="http://img.shields.io/static/v1?label=STATUS&message=EM ANDAMENTO&color=YELLOW&style=flat"/>
+</p>
 
 Modelo Front-End do projeto Nefertiti
 
