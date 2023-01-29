@@ -7,7 +7,7 @@
   <img src="http://img.shields.io/static/v1?label=STATUS&message=Em Andamento&color=yellow&style=flat"/>
 </p>
 
-Modelo Front-End do projeto Nefertiti
+<p align="center">Modelo Front-End do projeto Nefertiti</p>
 
 <p align="center">Acompanhe o andamento do projeto  <a href="https://almeidastor.github.io/nefertiti-webfront/">Aqui</a></p>
 
