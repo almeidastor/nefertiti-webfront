@@ -1,5 +1,5 @@
 *{margin:0; padding:0; border:none; outline:none; font-weight: 300; box-sizing: border-box;}
-body{}
+body{background-color: #14213d;}
 
 .header{width: 100%; display: flex;}
 .toggle{padding:0px 16px; text-align: right; box-sizing: border-box; color:#FCA311; font-size:24px; display:none;}
@@ -120,10 +120,32 @@ body{}
 #logosobrediv1{width: 30%; border-radius: 0px 25px; float: left; position: relative; background-size: cover; background-position: center;} 
 #logosobredivtext{width: 55% ; background: #F5F5F5; display: flex ;justify-content: center; padding: 20px; overflow:auto; align-items: center; scroll-behavior: auto;}
 #logosobredivtext1{font-size: 24px; font-family: Roboto, serif; color: #263238;}
+	.container {display: flex; overflow-x: auto;  justify-content: center;}
+	.container img { margin-right: 15px;}
+	#roll{width: 100%; display: flex; align-items: center; padding-top: 20px;}
+	#img{width: 200px;}
+#nossiga{width:100%;text-align: center;}
+	#iconsocial3{width:80px; margin-right:30px; color:#e5e5e5;}
+	#iconsocial4{width:80px;}
+	#titnef{color: #5a189a;}
+
 
 @media(max-width:800px){
 	#sobreanefertiti{width: 100%;padding-left: 16px;padding-right: 16px; margin-top: 16px}
 	#logosobredivtext{height: 13vh;}
 	#logosobredivtext{margin-left: 16px; padding: 8px; border-radius: 25px;}
 	#logosobredivtext1{font-size: 12px; text-orientation: left;}
+	.container {display: flex; overflow-x: auto; justify-content: left;}
+	.container img { margin-right: 5px;}
+	#roll{width: 100%; display: flex; align-items: center; padding-top: 16px;}
+	#img{width: 150px;}
+		#iconsocial3{max-width:60px;}
+	#iconsocial4{max-width:60px;}
 }
+
+@media(min-width:800px){
+	#btnaction{height: 60px;}
+}
+
+#divaction{width: 100%;align-items: center; text-align: center;}
+#btnaction{width: 70%; font-size: 20px; color: white; background: linear-gradient(180deg, rgba(255,114,1,1) 10%, rgba(255,153,1,1) 80%); border-radius: 10px;}
