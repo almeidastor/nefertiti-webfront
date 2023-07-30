@@ -1,29 +1,38 @@
-#blogdash{ width:100%;display: flex; justify-content: center;}
+#storedash{ width:100%;display: flex; justify-content: center;}
 .menutop{width:75%; height: auto; padding-right:20px;}
 .menulateral{ width:20%; background-color: #f5f5f5;border-radius: 20px; padding:10px;}
 .filter .filt{list-style: none; display:inline-block; padding: 16px 8px 16px 8px; vertical-align: middle; color:#000000;}
 .filter .filt:hover{color:#FCA311;  font-weight: bold;}
 .filter .filt a {color:currentColor; text-decoration: none;}
 #menufiltro{width:50% ; height:50px ; background-color: rgba(255, 255, 255, 0.3); text-align:center;}
-#menufiltro1{width:30%; height: 50px;background-color: white; justify-content: center; text-align: center; padding-top: 10px; border: 1px solid #000000; border-radius: 10px;}
-#menuid{display:flex; justify-content: space-between;}
+#menufiltro1{display: none;}
+#menuid{display:none;}
 
 .menufinal {list-style: none; padding: 0; margin: 0; position: center;}
 .menufinal li {display: inline-block; margin-right: 10px; background-color: rgba(255, 255, 255, 0.3);}
 .menufinal li a {text-decoration: none;color: white;font-weight: bold;padding: 5px 10px;border: 1px solid black;border-radius: 5px;}
 .menufinal li a:hover {text-decoration: underline;}
-.menu-container{width:100%; text-align: center; margin-bottom: 20px; margin-top: 200px;}
+.menu-container{width:100%; text-align: center; margin-bottom: 20px; margin-top: 20px;}
 #busca{height: 30px; border-radius: 10px;}
 
 #blog-indeximg2{width: 100%; height: 60vh;}
 .blog-indextext2{background-color: #f5f5f5; padding: 20px; border-radius: 10px;}
 
+#store-indexdiv{background: #F5F5F5;display: flex;position: relative; margin-left: 32px; margin-right: 32px; margin-bottom: 56px; border-radius:8px;}
+#storeprice{margin-top: 8px; float: right; font-size: 24px; font-weight: bold;}
+
+
+
 @media(max-width:800px){
-#blogdash{flex-direction: column;}
+#storedash{flex-direction: column;}
 .menutop{width:100%;padding-right:0px;}
-.menulateral{ width:100%;}
+.menulateral{display: none;}
 #menufiltro{width:100% ;}
 #menufiltro1{width:100% ; margin-top: 8px;}
 #menuid{display:block;}
 #blog-indeximg2{width: 100%; height: 30vh;}
+#menufiltro1{width:100%; height: 50px;display: block; background-color: white; justify-content: center; text-align: center; padding-top: 10px; border: 1px solid #000000; border-radius: 10px;}
+#menuid{display:flex; justify-content: space-between;margin-top: 8px;}
+#store-indexdiv{display: flex;}
+#store-indexdiv{margin-left: 16px; margin-right: 16px; margin-bottom: 40px;}
 }
